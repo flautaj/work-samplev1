@@ -1,0 +1,48 @@
+<div id="border" class="page-logo">
+  <img href="/" routerlink="/" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/UAWRVF/43/d5/cd/43d5cd73a1354f1e8155824bdce9ecfa/images/what_s_new_/u55.svg?pageId=a168d095-7682-482e-9451-8c8d0945eb63" tabindex="0" style="outline: none;">
+
+</div>
+
+
+
+<div>
+  <div id="header-border">
+    <h3>What's New in Flexential Xperience Platform?</h3>
+    <div><a href="https://passport.flexential.com/login">Flexential.com </a><a href="#">Platform</a></div>
+  </div>
+
+
+  <div *ngFor="let newItem of newItemList">
+    <div id="border">
+
+      <img src="{{newItem.icon}}">
+      {{newItem.header}}
+      <h3 id="container-title"><a href="#">{{newItem.title}}</a></h3>
+      <p>Posted by {{newItem.person}} about {{newItem.created}}</p>
+      <p *ngIf="newItem.showFullText">{{newItem.text}}<a tabindex="0" style="cursor: pointer;" (click)='!!readMore(newItem)'></a></p>
+      <p *ngIf="!newItem.showFullText">{{newItem.text}}<a tabindex="0" style="cursor: pointer;" (click)='!!readMore(newItem)'> Read More</a></p>
+      <p *ngIf="newItem.showFullText">{{newItem.text1}}
+      </p>
+    </div>
+  </div>
+
+</div>
+<div id="text">
+  <p id="items-page">
+    Items per Page
+    <select>
+      <option value="">5</option>
+      <option value="">10</option>
+      <option value="">25</option>
+      <option value="">100</option>
+    </select>
+
+    <button>
+      < </button><button> ></button> 1 - 10 of 100 <span>Go to page: </span>
+
+        <input type="" id="input-go" name="something">
+        <button>
+          <i>     Go</i>
+        </button>
+  </p>
+</div>

@@ -1,0 +1,65 @@
+
+//id css
+#border {
+  border-bottom: 1px solid #E6E6E6;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+#content-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container-title {
+  color: #142960
+}
+#header-border {
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+#text{
+  align-items:right;
+}
+#items-page{
+  float:right;
+  align-content: end;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+.img {
+  padding-right: 40px;
+}
+
+.page-logo {
+  margin:0 auto;
+  margin-top: 20px;
+  border-width: 0px;
+  top: 0px;
+  width: 1135px;
+  height: 64px;
+  background: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(226, 229, 236, 1);
+  border-left: 100px;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 1px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  box-shadow: none;
+}
+
+
+
+
+
+
